@@ -5,7 +5,7 @@ from openai import OpenAI
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Title of the app
-st.title("MOM Health Symptom Checker")
+st.title("WIFE Health Symptom Checker")
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
